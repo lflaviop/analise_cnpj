@@ -4,27 +4,35 @@
 <br>
 
 ### **Apresentação do projeto**
-Para um profissional ou empresa que oferta produtos e/ou serviços, ter o conhecimento do local onde se situam seus clientes pode ser um diferencial muito grande a ser explorado em seu favor. Serviços de _leading_ e carteiras de clientes são ofertados por diversas empresas do ramo, mas quase sempre são caros o que os torna proibitivos para os pequenos empreendedores. O Governo Federal disponibiliza para _download_ os dados de todas as empresas com CNPJ abertas no Brasil na forma de dados públicos, os mesmos muitas vezes utilizadas pelas empresas de _leading_. Assim, aproveitando-se deste fato, os dados foram obtidos e tratados para possibilitar diversos tipos de análises, seja para a obtenção de _insights_ ou até mesmo futura prospecção de clientes.
+Para um profissional ou empresa que oferta produtos e/ou serviços, ter o conhecimento do local onde se situam seus clientes pode ser um diferencial muito grande a ser explorado em seu favor. Serviços de _leading_ e carteiras de clientes são ofertados por diversas empresas do ramo, mas quase sempre são caros o que os torna proibitivos para os pequenos empreendedores. O Governo Federal disponibiliza para _download_ os dados de todas as empresas com CNPJ abertos no Brasil na forma de dados públicos, os mesmos muitas vezes utilizadas pelas empresas de _leading_. Assim, aproveitando-se deste fato, os dados foram obtidos e tratados para possibilitar diversos tipos de análises, seja para a obtenção de _insights_ ou até mesmo futura prospecção de clientes.
+<br>
 
-#### **Motivação**
+* #### **_Motivação_**
+Além de uma ótima oportunidade para o estudo de diversas técnicas de Análise de Dados utilizando-se de dados reais, este projeto foi motivado pelo fato de se poder gerar meios para que qualquer pessoa ou empresa interessada possa obter informações sobre as empresas de interesse no seu local de interesse. Isso poderá lhe fornecer meios de melhorar seu negócio, otimizar a prospecção de novos clientes etc.
+<br>
 
-Citar o propósito do trabalho:
-* Aquisição dos dados;
-* Motivação do projeto;
-* Forma de execução;
-* Divisão das partes e motivação para isso;
-* etc
+* #### **_Execução do projeto_**
+Os arquivos disponibilizados pelo Governo Federal estão separados por categorias e divididos em diversos arquivos devido ao seu tamanho. Cada categoria possui as informações relativas ao seu tema e dessa forma diversos _joins_ tem de ser realizados para possibilitar uma visão global das empresas. O projeto foi dividido em partes para possibilitar melhor entendimento e compreensão do trabalho proposto, da seguinte forma:
+
+- *1ª Parte:* 
+    *   obtenção dos dados relativos ao ESTABELECIMENTO;
+    *   remoção das *features* desnecessárias ao escopo deste projeto;
+    *   filtragem pelo(s) município(s) de interesse;
+    *   tratamento dos dados;
+    *   geração de arquivo de dados com as informações de interesse para o estabelecimento.
+
+Maior detalhamento será dado nos _notebooks_ do projeto.
 <br>
 
 ### Instalação
-Não são necessárias instalações adicionais.<br><br>
+O notebook não requer instalações adicionais além das necessárias a sua execução e das bibliotecas já utilizadas no código.<br><br>
 
 ### **Ambiente de Desenvolvimento**
-O notebook não requer instalações adicionais além das necessárias a sua execução e das bibliotecas já utilizadas no código.<br><br>
+Por conveniência o projeto foi todo realizado no ambiente de desenvolvimento [Google Colab](https://colab.research.google.com/). Entretanto, o mesmo pode ser executado em qualquer outro ambiente de desenvolvimento desde que as bibliotecas e recursos necessários à  execução estejam disponíveis.<br><br>
 
 
 ### **Histórico de atualizações**
-* **1.0.0** - Publicação da Parte 1 do projeto
+* **1.0.0** - Publicação da 1ª Parte do projeto
 
 <br><br>
 
@@ -39,10 +47,10 @@ O notebook não requer instalações adicionais além das necessárias a sua exe
 
 <br>
 
-### **_Luiz Flavio Pereira_**<br>
-**e-mail:** lfpereira.eng@gmail.com<br>
-**Linkedin:** <https://www.linkedin.com/in/luiz-flavio-pereira/><br>
-**Kaggle** : <https://www.kaggle.com/luizflaviopereira>
-<br><br>_Distribuído sobre a licença. Veja `LICENÇA` para maiores informações._
+#### **_Luiz Flavio Pereira_**
+##### **e-mail:** lfpereira.eng@gmail.com
+#####  **Linkedin:** <https://www.linkedin.com/in/luiz-flavio-pereira/>
+#####  **Kaggle:** <https://www.kaggle.com/luizflaviopereira>
+##### **GitHub:** <https://github.com/lflaviop>
 
-[https://github.com/lflaviop/analise_cnpj](https://github.com/lflaviop)
+<br>_Distribuído sobre a licença. Veja `LICENÇA` para maiores informações._
