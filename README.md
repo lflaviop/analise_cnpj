@@ -29,4 +29,4 @@ O notebook não requer instalações adicionais além das necessárias a sua exe
 **Kaggle** : <https://www.kaggle.com/luizflaviopereira>
 <br><br>_Distribuído sobre a licença. Veja `LICENÇA` para maiores informações._
 
-[https://github.com/lflaviop/predicao_genero_musical](https://github.com/lflaviop)
+[https://github.com/lflaviop/analise_cnpj](https://github.com/lflaviop)
