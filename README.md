@@ -33,6 +33,7 @@ Por conveniência o projeto foi todo realizado no ambiente de desenvolvimento [G
 
 ### **Histórico de atualizações**
 * **1.0.0** - Publicação da 1ª Parte do projeto
+* **1.0.1** - Acréscimo de comentários no notebook e alteração dos nomes dos diretórios
 
 <br><br>
 
